@@ -1,0 +1,51 @@
+body {
+    background-color: #F6F4E8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+
+}
+
+.homepage,
+.recipe-name {
+    background-color: #DC9B9B;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu {
+    margin-left: 40px;
+}
+
+.choices {
+    padding: 10px;
+    background-color: #C0E1D2;
+    margin: 20px;
+    width: 800px;
+}
+
+a {
+    color: black;
+}
+
+.description {
+    margin: 40px;
+}
+
+.ingredients,
+.steps {
+    background-color: #C0E1D2;
+    padding: 20px;
+    margin: 40px;
+    
+}
+
+.steps li {
+    margin-left: 40px;
+}
+
+img {
+    margin: 20px auto;
+    display: block;
+    width: 500px;
+}

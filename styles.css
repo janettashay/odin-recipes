@@ -1,26 +1,36 @@
 body {
     background-color: #F6F4E8;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
-
+    font-size: 20px;
+}
+.card {
+    width: 600px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .homepage,
 .recipe-name {
     background-color: #DC9B9B;
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto;
     text-align: center;
+    border-color: #DC9B9B;
+    border-radius: 15px;
 }
 
 .menu {
-    margin-left: 40px;
+    margin-left: 0 auto;
+    background-color: #C0E1D2;
+    padding: 30px;
+    border-color: #C0E1D2;
+    border-radius: 15px;
 }
 
 .choices {
-    padding: 10px;
     background-color: #C0E1D2;
-    margin: 20px auto;
+    margin-left: 40px;
+    padding: 5px;
 }
 
 a {
@@ -36,15 +46,22 @@ a {
     background-color: #C0E1D2;
     padding: 20px;
     margin: 40px;
+    border-color: #C0E1D2;
+    border-radius: 25px;
+    word-wrap: break-word;
     
 }
 
-.steps li {
-    margin-left: 40px;
+.steps li,
+.ingredients li {
+    margin-left: 0px;
+    padding: 5px;
 }
 
 img {
     margin: 20px auto;
     display: block;
-    width: 500px;
+    width: 600px;
+    max-width: 80%;
+    border-radius: 15px;;
 }

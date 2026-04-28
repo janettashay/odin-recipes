@@ -20,8 +20,7 @@ body {
 .choices {
     padding: 10px;
     background-color: #C0E1D2;
-    margin: 20px;
-    width: 800px;
+    margin: 20px auto;
 }
 
 a {
